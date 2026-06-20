@@ -33,7 +33,7 @@ public class Producto {
             System.out.println(Objeto.Id + " ya existe");
         }
     }
-    public void removeObjetos (ArrayList<Producto> carrito, Producto Objeto){
+    public static void removeObjetos (ArrayList<Producto> carrito, Producto Objeto){
                        if (carrito.remove(Objeto)){
                         System.out.println(Objeto.Nombre+" eliminado");
         }else{

@@ -17,7 +17,7 @@ public class Main {
         System.out.print("\nProductos en su carrito:\n");
         Producto.mostrarCarrito(carrito);
         System.out.print("\nEliminando objeto");
-        //Producto.removeObjetos(carrito, Objeto2);
+        Producto.removeObjetos(carrito, Objeto2);
         System.out.print("\nProductos en su carrito:\n");
         Producto.mostrarCarrito(carrito);    
         
